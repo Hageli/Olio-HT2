@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Olio-HT</string>
+    <string name="browseMovies">Selaa elokuvia</string>
+    <string name="ratings">Arvioinnit</string>
+    <string name="buyHistory">Ostohistoria</string>
+    <string name="settings">Asetukset</string>
+    <string name="date">Päivämäärä:  (xx.xx.xxxx)</string>
+    <string name="movieName">Elokuvan nimi</string>
+    <string name="search">Etsi</string>
+    <string name="return_button">Takaisin</string>
+    <string name="cancel_button">Peru</string>
+    <string name="rated">Arvioidut</string>
+    <string name="filters">Vaihda suodattimia</string>
+    <string name="comment">Kommentti</string>
+    <string name="add_review">Lisää kommentti</string>
+    <string name="buy_ticket">Osta lippu</string>
+    <string name="change_language1">English</string>
+    <string name="change_language2">Suomi</string>
+    <string name="empty_buyhistory">Tyhjennä ostohistoria</string>
+    <string name="empty_ratings">Tyhjennä arvioinnit</string>
+    <string name="language_text">Valitse kieli:</string>
+    <string name="message">Tiedosto tyhjennetty onnistuneesti</string>
+    <string name="emptylist">Lista on tyhjä</string>
+    <string name="result_message">Elokuva alkaa: </string>
+    <string name="spokenLanguage">Puhuttu kieli:</string>
+    <string name="length">Elokuvan pituus:</string>
+    <string name="returnMain">Palaa päävalikkoon</string>
+    <string name="buyTime">Ostettu:</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Olio-HT</string>
+    <string name="browseMovies">Browse movies</string>
+    <string name="ratings">Ratings</string>
+    <string name="buyHistory">purchase History</string>
+    <string name="settings">Settings</string>
+    <string name="date">Day</string>
+    <string name="movieName">Movie Name</string>
+    <string name="search">Search</string>
+    <string name="return_button">Return</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="rated">Rated</string>
+    <string name="filters">Change filters</string>
+    <string name="comment">Comment</string>
+    <string name="add_review">Add comment</string>
+    <string name="buy_ticket">Buy ticket</string>
+    <string name="change_language1">English</string>
+    <string name="change_language2">Suomi</string>
+    <string name="empty_buyhistory">Reset purchase history</string>
+    <string name="empty_ratings">Reset ratings</string>
+    <string name="language_text">Choose language:</string>
+    <string name="message">File emptied succefully</string>
+    <string name="emptylist">List is empty</string>
+    <string name="result_message">Movie starts at: </string>
+    <string name="spokenLanguage">Spoken language:</string>
+    <string name="length">Movie length:</string>
+    <string name="returnMain">Back to main menu</string>
+    <string name="buyTime">Bought:</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".activities.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="245dp"
+        android:layout_height="190dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineTop"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elokuva_ppi">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/browse_movies"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey2"
+        android:elevation="10dp"
+        android:text="@string/browseMovies"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintTop_toTopOf="@id/guidelineTop"
+        app:layout_constraintBottom_toTopOf="@+id/buy_history"
+        tools:layout_editor_absoluteX="80dp">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/buy_history"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey2"
+        android:elevation="10dp"
+        android:text="@string/buyHistory"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintBottom_toTopOf="@+id/ratings"
+        app:layout_constraintTop_toBottomOf="@+id/browse_movies"
+        tools:layout_editor_absoluteX="82dp">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey2"
+        android:elevation="10dp"
+        android:text="@string/settings"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintTop_toBottomOf="@+id/ratings"
+        tools:layout_editor_absoluteX="80dp">
+        android:elevation="10dp">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/ratings"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey2"
+        android:elevation="10dp"
+        android:text="@string/ratings"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintBottom_toTopOf="@+id/settings"
+        app:layout_constraintTop_toBottomOf="@+id/buy_history"
+        tools:layout_editor_absoluteX="80dp">
+        android:elevation="10dp">
+
+
+    </Button>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.80" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
