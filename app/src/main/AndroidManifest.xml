@@ -13,34 +13,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OlioHT">
         <activity
-            android:name=".activities.ResultsDetailsActivity"
+            android:name=".ResultsDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ResultsActivity"
+            android:name=".ResultsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.BuyHistoryActivity"
+            android:name=".BuyHistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ReviewDetailsActivity"
+            android:name=".ReviewDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ArchiveActivity"
+            android:name=".ArchiveActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ReviewActivity"
+            android:name=".ReviewActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.CommentActivity"
+            android:name=".CommentActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.SearchActivity"
+            android:name=".SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
